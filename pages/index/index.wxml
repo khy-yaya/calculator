@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="calculator-box">
+    <view class="ralculator-text">
+      <!-- <input type="text" placeholder="" />{{currentValue}} -->
+        <text>{{currentValue}}</text>
+    </view>
+    <view class="btn-group">
+      <text class="btn" bindtap="ralculatorClear" data-text="CE">CE</text>
+      <text class="btn" bindtap="ralculatorClear" data-text="C">C</text>
+      <text class="btn" bindtap="ralculatorDelect" data-text="clear">⇦</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="÷">÷</text>
+    </view>
+    <view class="btn-group">
+      <text class="btn" bindtap="ralculatorInput" data-text="7">7</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="8">8</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="9">9</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="x">x</text>
+    </view>
+    <view class="btn-group">
+      <text class="btn" bindtap="ralculatorInput" data-text="4">4</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="5">5</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="6">6</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="-">-</text>
+    </view>
+    <view class="btn-group">
+      <text class="btn" bindtap="ralculatorInput" data-text="1">1</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="2">2</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="3">3</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="+">+</text>
+    </view>
+    <view class="btn-group">
+      <text class="btn" bindtap="ralculatorPrint" data-text="+/-">+/-</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="0">0</text>
+      <text class="btn" bindtap="ralculatorInput" data-text=".">.</text>
+      <text class="btn" bindtap="ralculatorInput" data-text="=">=</text>
+    </view>
+  </view>
+</view>

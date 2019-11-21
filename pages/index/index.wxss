@@ -1,0 +1,53 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+.calculator-box {
+  width: 600rpx;
+  border: 1rpx solid #ddd;
+}
+
+.ralculator-text {
+  margin-bottom: 40rpx;
+  text-align: right;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.ralculator-text text {
+  padding-right: 10rpx;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-bottom: 40rpx;
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+}
